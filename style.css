@@ -7,6 +7,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
+    background-color: #F5F5F5; /* zdroj, tkz. "white smoke" : https://www.w3schools.com/colors/color_tryit.asp?color=WhiteSmoke */
 }
 
 .header {
@@ -55,4 +56,12 @@ input[type="submit"] {
 
 form div {
     margin-bottom: 10px;
+}
+
+/* jednotlivé řádky v advanced.html */
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
 }
